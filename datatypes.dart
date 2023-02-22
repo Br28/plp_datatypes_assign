@@ -14,4 +14,12 @@ void main() {
   double radius = 5;
   double circumf = pi * radius;
   print(circumf);
+
+  // String datatype
+  String name = "Bruno";
+  String country = "Zambian";
+  String city = "Lusaka";
+  print(
+      'My name is ${name} and am  25 years old. I am currently on the Power Learn Project');
+  print('I am a ${country} national, and a ${city} resident');
 }
