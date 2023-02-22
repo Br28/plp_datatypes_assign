@@ -35,4 +35,18 @@ void main() {
   countries.remove('Togo'); // this function removes elements from the list
   print(countries);
   print(countries.length); // prints the number of elements in the list variable
+
+  // Map datatype
+  /**In this map datatype, i implemented an entity of person and its attributes */
+  Map<String, String> person = {
+    'firstName': 'Bruno',
+    'lastName': 'Simachulu',
+    'age': '25',
+    'country': 'Zambia',
+    'height': '172cm',
+  };
+  print(person); // prints out the key and values stored in the map variable
+  print(person['firstName']); // outputs the value of firstName
+  print(person['age']); // outputs the value stores in age
+  print(person['country']); // outputs the value of country
 }
